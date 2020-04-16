@@ -1,0 +1,81 @@
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.abs {
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.carousel {
+  margin-bottom: 10px;
+}
+.carousel-inner > .carousel-item > .img {
+  width: 100%;
+  height: 30rem;
+}
+
+header {
+  background-color: #013220;
+}
+
+body {
+  background-color: #D3D3D3;
+}
+
+header > p{
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 978px) {
+  body > section {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
+
+footer {
+  background-color: #013220;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+
+@media (min-width: 604px){
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+}
