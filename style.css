@@ -20,13 +20,6 @@
   outline: none;
 }
 
-.abs {
-  position: absolute;
-  top: 7px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .nav-item {
   position: relative;
   margin-left: 2em;
@@ -35,12 +28,12 @@
 }
 
 .container {
-  max-width: 992px;
+  max-width: 1200px;
 }
 
 .headerDivider {
-     border-left:0.5px solid #292b2c;
-     border-right:0.5px solid #292b2c;
+     border-left:0.5px solid #D3D3D3;
+     border-right:0.5px solid #D3D3D3;
      height:2em;
 }
 
