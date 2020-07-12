@@ -40,7 +40,7 @@
         <!-- links -->
         <div class="navbar-collapse collapse order-1" id="navbarSupportedContent">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link text-uppercase" href="mottenburg.html">Home</a>
           </li>
           <div class="headerDivider d-none d-md-block my-auto"></div>
@@ -52,7 +52,7 @@
             <a class="nav-link text-uppercase" href="about.html">About&nbsp;us</a>
           </li>
           <div class="headerDivider d-none d-md-block my-auto"></div>
-          <li class="nav-item">
+          <li class="nav-item acive">
             <a class="nav-link text-uppercase" href="contact.html">Contact</a>
           </li>
         </ul>
@@ -60,22 +60,24 @@
       </div>
     </nav>
 
-    <div class="container-fluid-img mb-5" style="padding: 0;">
-        <img src="./img/darkKneipe.jpg" style="width: 100%;" alt="KneipenBild">
-        <div class="centered text-warning oswald" style="font-size: 12vw;">Mottenburg</div>
-    </div>
-
     <section class="container">
-      <h1 class="oswald">Öffnungszeiten</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-      </p>
-
-      <h1 class="oswald">Finde uns!</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-      </p>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.3661038424!2d9.720841215112532!3d52.38191325420695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b07498c0e98493%3A0xbbf75732f042740c!2sOberstra%C3%9Fe%2012%2C%2030167%20Hannover!5e0!3m2!1sde!2sde!4v1587319563271!5m2!1sde!2sde" width="100%" class="my-2" height="300vw" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <h1 class="oswald">Schreib uns!</h1>
+      <p>Schreib uns, wenn ihr anregungen, Fragen oder Ähnliches habt.</p>
+      <form method="post" action="verification.php">
+        <div class="form-group my-2" width="100px">
+          <input type="name" placeholder="Name" name="nameInput" class="form-control">
+            <small id="Anonym" class="form-text text-muted">Frei lassen, falls Anonym</small>
+        </div>
+        <div class="form-group my-2" width="100px">
+          <input type="email" placeholder="Email" name="emailInput" class="form-control">
+            <small id="Anonym" class="form-text text-muted">Frei lassen, falls keine Antwort</small>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control my-2" maxlength="300" name="Nachricht" rows="3" placeholder="Deine Nachricht"></textarea>
+          <small id="Hinweis" class="form-text text-muted">Maximal 300 Zeichen</small>
+        </div>
+        <button type="submit" class="btn btn-success my-2">Absenden</button>
+      </form>
     </section>
 
     <!-- Optional JavaScript -->
